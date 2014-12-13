@@ -17,3 +17,10 @@ The staging area allow for files to be added to the commit set and
 compared to the repository.  Diligence in using the staging area and the 
 add and commit commands is required.
 
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+Branches can be used for experimental changes, working changes for 
+various users, and patches for released code.  Branches are helpful in 
+that they keep the associated code bundled together for access as a unit.
+
