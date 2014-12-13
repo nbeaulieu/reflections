@@ -29,3 +29,13 @@ How do the diagrams help you visualize the branch structure?
 Diagrams provide a visual representation of commits and branches and show 
 how the tree structure of the respository looks.
 
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+Ok, I'm ready to move on.  Experience with version control is making this 
+lesson tiring.  Anyhow, merging branches togehter combines the code for 
+both branhces.  The diagram, again, is a visual of the branches and the 
+revisions and what will be included.
+
+
+
