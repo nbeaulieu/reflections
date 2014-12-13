@@ -24,3 +24,8 @@ Branches can be used for experimental changes, working changes for
 various users, and patches for released code.  Branches are helpful in 
 that they keep the associated code bundled together for access as a unit.
 
+How do the diagrams help you visualize the branch structure?
+
+Diagrams provide a visual representation of commits and branches and show 
+how the tree structure of the respository looks.
+
