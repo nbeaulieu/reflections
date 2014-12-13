@@ -22,3 +22,9 @@ changes to existing or released code without inclucing the full matser
 branch.  A fork is a good choice when the original repository is not your 
 own.  A clone is required for working with repositories and remotes.
 
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+
+The benefit of having a copy of the last known state of the remote stored 
+locally ensures that local changes can be considered against or made 
+within the latest and greatest code base.
