@@ -10,3 +10,15 @@ Automatically staying up to date with the remote repository introduces
 the risk of losing local work or advancing the local version to the 
 remote prematurely if you were still testing or considering other tasks 
 or features that are local.
+
+Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+A fork is a copy of a remote repository that links back to the orginal 
+repository.  A clone is a copy of a repository.  A branch contains 
+different versions of the same file(s) within the same repository.  
+Branches are good for experimental features, new feature development, and 
+changes to existing or released code without inclucing the full matser 
+branch.  A fork is a good choice when the original repository is not your 
+own.  A clone is required for working with repositories and remotes.
+
