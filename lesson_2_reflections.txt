@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a responsitory sets up the git structure for the files in the 
+directory.  This must occur before files can be archived or tracked.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area provides intermediate/working storage for files the 
+respository.  This allows users to work on a commit set, refine it, and 
+commit when happy with the staged files and commit.
