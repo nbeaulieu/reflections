@@ -1,0 +1,62 @@
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+Diff tools help identify differences in files and changes in code by
+identifying the line of code (and sometimes the exact characters) that
+are different between files or versions.  This saves the user from reading
+each line of code or text to find a change.  For short files with little
+text the time savings is not as obvious as it is for long files or those
+with complex logic.
+
+How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+Having easy access to the full file history allows me to be more
+efficient for a number of reasons.  Some are listed here.  First, 
+committing files often allows for a very intentional and iterative 
+development process that is easy to track in small chunks of work.  It's 
+easy to revert to a file or set of files with a desired functionality set.
+Using version control allows for identifying when bugs were introduced 
+and often helps the user identify bugs in code by comparing current to 
+previous versions of code.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?
+
+The pros of manually committing changes include:  having the ability to save changes at a logic point in the development process (fixed bug, new feature, and other subjective stopping points).  The cons include relying on the programmers to be diligent about commits, integration, and providing meaningful commit comments.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+Version control systems that lend themselves to code allow multiple files 
+per commit because code files are often reliant on the other files in the 
+respository and often, a new feature or bug fix requires changes to more 
+than one code file at a time.  Systems like Google docs excel at managing 
+files that are standalone and independent in nature.
+
+How can you use the commands git log and git diff to view the history of 
+files?
+
+Command git log lists the history log of the respository.  Using this 
+list, it is reasonable to find a commit by description or time.  Use of 
+git diff provides an automatic view of the changes between files.  Both 
+tools allow for easy inspection of changes between file revisions in the 
+respository.
+
+How might using version control make you more confident to make changes 
+that could break something?
+
+Version control keeps track of all changes and allows us to inspect and 
+revert to previous versions of code.  Broken code bases can be reverted to a known working version with ease.
+
+Now that you have your workspace set up, what do you want to try using 
+Git for?
+
+I have number of personal projects that I have been working on at home.  
+I didn't realize that I could use git locally on my Mac until now!  Now, 
+I can hardly wait to get the projects archived.  Of course, I will to 
+archive my Udacity project files, too.
+
+
